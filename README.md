@@ -1,4 +1,4 @@
-#ML_for_sEMG_Analysis
+# ML_for_sEMG_Analysis
 
 This repository contains MATLAB code files and data necessary to perform a comparative study of classical and advanced machine learning methods for regression and classification tasks on NinaPro Datasets using surface electromyography (s-EMG) signals. The code has been developed and tested with MATLAB 2021b and requires the following prerequisites to be installed:
 
@@ -7,10 +7,10 @@ This repository contains MATLAB code files and data necessary to perform a compa
 - [ ] Statistics and Machine Learning Toolbox
 - [ ] Parallel Computing Toolbox
 
-##GPU Capability
+## GPU Capability
 To enhance performance, you can utilize GPU capability by modifying line 49 in the lstm_rgrn file from 'cpu' to 'gpu'.
 
-##Execution Instructions
+## Execution Instructions
 Follow these steps to run the code:
 
 - **Download the Files**: Clone or download this repository to your local machine.
@@ -29,5 +29,5 @@ Follow these steps to run the code:
 - [MATLABcodes_withDatafile](./MATLABcodes_withDatafile): Contains standalone executables of MATLAB code files.
 - [Plots_and_Outputs](./Plots_and_Outputs): Contains output plots collected from the code execution, including a print of the MATLAB command window for all cases.
 
-##Dissertation Report
+## Dissertation Report
 A [dissertation report in PDF format](Dissertation_Report.pdf) is also included, presenting this work as part of the MSc in Advanced Control and Systems Engineering at the University of Sheffield, submitted in 2021.
